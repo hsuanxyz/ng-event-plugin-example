@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  padding: 20px;
+}
+
+:host div {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: white;
+}
+
+:host .box-a {
+  background: rgb(155, 155, 155);
+  width: 200px;
+  margin-right: 20px;
+}
+
+:host .box-b {
+  background: rgb(74, 144, 226);
+  flex: 1 auto;
+}
